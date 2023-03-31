@@ -1,10 +1,10 @@
 import { AppBar } from '@/components/AppBar'
 import { TableHome } from '@/components/TableHome'
 
-export default function Home() {
+export default function Usuarios() {
   return (
     <>
-      <AppBar active='/' />
+      <AppBar active='/usuarios' />
       <TableHome />
     </>
   )
